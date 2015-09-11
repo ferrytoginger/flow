@@ -1,0 +1,173 @@
+extends ./layout.jade
+
+block content
+        header
+          .header-content
+            .header-content-inner
+              h1 Hello Hubrick-Team.
+              |                 
+              hr
+              |                 
+              p
+                | This page is build using the Express framework for Node. Template engine: Jade. CSS framework: Bootstrap.  
+              |                 
+              a.btn.btn-primary.btn-xl.page-scroll(href='#about') Look into Logic!
+        |     
+        section#about.bg-primary
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading Guess what.
+                |                     
+                hr.light
+                |                     
+                p.text-faded
+                  | That's would be the place to render the engine.. blabla Labore XOXO kogi, laborum tousled assumenda sriracha before they sold out. Labore mlkshk Helvetica Marfa health goth Austin magna sunt, yr aesthetic artisan heirloom chillwave commodo lo-fi.
+                |                    
+                a.btn.btn-default.btn-xl(href='#services') Move down!
+        |     
+        section#services
+          .container
+            .row
+              .col-lg-12.text-center
+                h2.section-heading The Lab Bunny.
+                |                     
+                hr.primary
+          |         
+          .container
+            .row
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-diamond.wow.bounceIn.text-primary
+                  |                         
+                  h3 Humble Ragtime
+                  |                         
+                  p.text-muted  Whatever Tumblr shabby chic squid. Cornhole tousled plaid shabby chic health goth +1 butcher single-origin coffee.
+              |                 
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-paper-plane.wow.bounceIn.text-primary(data-wow-delay='.1s')
+                  |                         
+                  h3 Locavore Austin
+                  |                         
+                  p.text-muted Tofu try-hard hashtag, Blue Bottle occupy whatever fap Austin deep v raw denim. Locavore Austin farm-to-table McSweeney's cred. 
+              |                 
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-newspaper-o.wow.bounceIn.text-primary(data-wow-delay='.2s')
+                  |                         
+                  h3 Echo Park
+                  |                         
+                  p.text-muted Echo Park locavore Pitchfork brunch freegan listicle chambray lo-fi typewriter master cleanse. 
+              |                 
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-heart.wow.bounceIn.text-primary(data-wow-delay='.3s')
+                  |                         
+                  h3 Fanny pack
+                  |                         
+                  p.text-muted Fanny pack bitters mixtape whatever cold-pressed Kickstarter.
+        |     
+        aside.bg-dark
+          .container.text-center
+            .call-to-action
+              h2 Pitchfork brunch!
+              |                 
+              a.btn.btn-default.btn-xl.wow.tada(href='#portfolio') Move Down!
+        | 
+        section#portfolio.no-padding
+          .container-fluid
+            .row.no-gutter
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/1.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | To Catch a Thief, 1955
+                      |                                 
+                      .project-name
+                        | Grace Kelly
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/2.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | At Liederkranz Hall, New York, 1947
+                      |                                 
+                      .project-name
+                        | Frank Sinatra
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/6.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | At Timme Rosenkrantz, 1947, New York
+                      |                                 
+                      .project-name
+                        | Ella Fitzgerald
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/4.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Singin' in the Rain, 1952
+                      |                                 
+                      .project-name
+                        | Gene Kelly
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/5.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Performing, 1966.
+                      |                                 
+                      .project-name
+                        | Sammy Davis Jr.
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/3.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Andy Hardy
+                      |                                 
+                      .project-name
+                        | Judy Garland
+        |         
+        section#contact
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading Thanks for checkin' in!
+                |                     
+                hr.primary
+                |                     
+                p
+                  | Chillwave salvia tofu, roof party ethical next level PBR&B mustache sustainable forage Pinterest raw denim polaroid art party. Meggings distillery listicle skateboard, typewriter blog Helvetica gluten-free hella chillwave. Schlitz distillery leggings DIY. Enjoy your day.
+              |                 
+              .col-lg-4.col-lg-offset-2.text-center
+                i.fa.fa-phone.fa-3x.wow.bounceIn
+                |                     
+                p +49 1577 9758192
+              |                 
+              .col-lg-4.text-center
+                i.fa.fa-envelope-o.fa-3x.wow.bounceIn(data-wow-delay='.1s')
+                |                     
+                p
+                  a(href='mailto:post@ferrytoginger.com') Email me!

@@ -1,0 +1,8 @@
+{
+  "name": "Flow Logic",
+  "description": "Coding challenge for Hubrick",
+  "repository": "https://git.heroku.com/frozen-ridge-7652.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static", "jade"],
+  "image": "heroku/nodejs"
+}
